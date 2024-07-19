@@ -24,7 +24,7 @@ function PostCard({$id, title, featuredImage}) {
   return (
 
     <Link to={`/post/${$id}`}>
-    <div className='m-3 flex  items-center justify-center'>
+    <div className='m-3 flex  items-center justify-center w-full'>
         <div className='flex w-full flex-col items-center justify-center rounded-xl gap-5 bg-gray-200 p-5 shadow-lg'>
         <div className="card-img flex w-full items-center justify-center">
             <img src={imageUrl} alt={title} width="100px"/>
