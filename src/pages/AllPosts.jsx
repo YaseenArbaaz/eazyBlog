@@ -17,7 +17,7 @@ function AllPost() {
   return (
     <div className='w-full  min-h-screen '>
         <Container>
-          <div className="flex flex-col bg-black md:flex-row md:px-20 ">
+          <div className="flex flex-col md:flex-row md:px-20 ">
 
             {posts.map((post) => 
              <div key={post.$id} className='p-2 w-[20rem]'>
