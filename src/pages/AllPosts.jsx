@@ -20,7 +20,7 @@ function AllPost() {
           <div className="flex flex-col bg-black md:flex-row md:px-20 ">
 
             {posts.map((post) => 
-             <div key={post.$id} className='p-2 w-full'>
+             <div key={post.$id} className='p-2 w-[20rem]'>
              <PostCard {...post} />
          </div>
             )}
